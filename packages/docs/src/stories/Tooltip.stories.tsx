@@ -1,8 +1,8 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, Button, Tooltip, TooltipProps } from '@ignite-ui/react'
+import { Button, Tooltip, TooltipProps } from '@ignite-ui/react'
 
 export default {
-  title: 'Form/Tooltip',
+  title: 'Utils/Tooltip',
   component: Tooltip,
   args: {
     children: <Button>Hover me</Button>,
